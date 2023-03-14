@@ -1,8 +1,11 @@
 {
-  "name": "@dmdboi/adonis-theme-uploader",
-  "version": "0.0.6",
+  "name": "adonis-theme-uploader",
+  "version": "0.0.7",
   "description": "",
   "main": "build/providers/UploadThemeProvider.js",
+  "repository": {
+    "url": "https://github.com/dmdboi/adonis-theme-uploader"
+  },
   "scripts": {
     "pretest": "npm run lint",
     "test": "node -r @adonisjs/require-ts/build/register bin/test.ts",
@@ -110,9 +113,9 @@
   },
   "adonisjs": {
     "providers": [
-      "@dmdboi/adonis-theme-uploader"
+      "dmdboi/adonis-theme-uploader"
     ],
-    "types": "@dmdboi/adonis-theme-uploader",
+    "types": "dmdboi/adonis-theme-uploader",
     "templates": {
       "config": [
         {
