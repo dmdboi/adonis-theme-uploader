@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adonis Theme Uploader</title>
+    @entryPointStyles('app')
+    @entryPointScripts('app')
+</head>
+
+<body>
+
+    <main>
+        <div class="">
+            <div>
+                <div>
+                    @if(flashMessages.has('success'))
+                    <div>
+                        <div>
+                            <h3 class="color: green;">{{ flashMessages.get('success') }}</h3>
+                        </div>
+                    </div>
+                    @end
+                </div>
+                <div style="margin-top: 64px; margin-bottom: 64px">
+                    <h1 class="" style="font-size: 32px"> Adonis Theme Uploader </h1>
+                    <p class="">Upload a theme zip file to get started.</p>
+                </div>
+                <div style="margin-top: 24px">
+                    <form enctype="multipart/form-data" method="post">
+                        <input type="file" name="theme" id="theme"
+                            class="" />
+                        <button
+                            class="">Upload Theme</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+
+</html>

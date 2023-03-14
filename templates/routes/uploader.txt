@@ -1,0 +1,10 @@
+import Route from '@ioc:Adonis/Core/Route'
+import UploadTheme from '@ioc:Dmdboi/UploadTheme'
+
+Route.get('/uploader', async ({ view }) => {
+  return UploadTheme.getUploadThemePage(view)
+})
+
+Route.post('/uploader', async (ctx) => {
+  return UploadTheme.uploadThemeToDir(ctx)
+})

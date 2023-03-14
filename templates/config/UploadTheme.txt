@@ -1,0 +1,8 @@
+import { UploadThemeConfig } from "@ioc:Dmdboi/UploadTheme"
+
+const uploadThemeConfig: UploadThemeConfig = {
+    routeName: '/uploader',
+    dirName: '/pages'
+}
+
+export default uploadThemeConfig
