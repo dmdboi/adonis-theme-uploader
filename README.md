@@ -7,8 +7,8 @@ The extension will then unzip the file to /pages, replacing any existing .edge f
 ## Installation
 
 ```
-npm i dmdboi/adonis-theme-uploader
-node ace configure dmdboi/adonis-theme-uploader
+npm i adonis-theme-uploader
+node ace configure adonis-theme-uploader
 ```
 
 ## Auth
