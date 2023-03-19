@@ -17,8 +17,8 @@ Routes for this extension are located in ``start/uploader.ts`` and are normal Ad
 
 ## Todo
 
-[] CSS support config
-[] Zip existing files config
+[] CSS support config  
+[] Zip existing files config  
 
 [npm-image]: https://img.shields.io/npm/v/extension.svg?style=for-the-badge&logo=npm
 [npm-url]: https://npmjs.org/package/extension "npm"
